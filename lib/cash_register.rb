@@ -19,7 +19,7 @@ def apply_discount
     @total = (@total*(1-@discount/100.0)).round
     "After the discount, the total comes to $#{@total}."
   else
-    "There is no discount to apply"
+    "There is no discount to apply."
   end
 end
 
